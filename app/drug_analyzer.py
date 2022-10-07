@@ -40,4 +40,4 @@ class DrugAnalyzer:
         
         difference = (act_subst_wgt * len(serie)) * act_subst_rate
         
-        return impurities(difference) and active_substance(difference)
+        return impurities() and active_substance(difference)
